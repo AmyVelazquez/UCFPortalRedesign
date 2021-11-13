@@ -9,8 +9,8 @@
 }
 
 .sidebar {
-    position: absolute;
-    width: 160px;
+    position: fixed;
+    width: var(--navwidth);
     height: 100vh;
     left: 0px;
     top: 0px;
@@ -79,5 +79,5 @@ ul.nav-list {
 }
 
 .left-margin {
-    margin-left: 160px;
+    margin-left: var(--navwidth);
 }
