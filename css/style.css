@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+/* SIDEBAR */
 .sidebar {
     position: fixed;
     width: var(--navwidth);
@@ -88,6 +89,7 @@
     margin-left: var(--navwidth);
 }
 
+/* ANNOUNCEMENTS AND TO DOS */
 .announcements {
     padding: 20px;
     border-style: solid;
@@ -95,4 +97,9 @@
     border-right-width: 5px;
     border-top-width: 5px;
     border-bottom-width: 5px;
+}
+
+/* MIDDLE NAV TILES */
+.nav-tiles {
+   margin: 20px;
 }
