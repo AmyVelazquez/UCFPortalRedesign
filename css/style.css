@@ -18,16 +18,22 @@
     background: #1B1B1B;
 }
 
-ul.nav-list {
+.nav-list {
     list-style-type: none;
+    text-align: center;
 }
 
 .nav-items {
-    color: yellow;
+    color: #FFCC00;
+}
+
+.nav-items img {
+    display: block;
+    margin: auto;
 }
 
 .links-name {
-    color: yellow;
+    color: #FFCC00;
 }
 
 .user-img {
@@ -80,4 +86,13 @@ ul.nav-list {
 
 .left-margin {
     margin-left: var(--navwidth);
+}
+
+.announcements {
+    padding: 20px;
+    border-style: solid;
+    border-left-width: 32px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
 }
