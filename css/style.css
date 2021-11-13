@@ -1,4 +1,83 @@
+:root {
+    --navwidth: 160px;
+
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    width: 160px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #1B1B1B;
+}
+
+ul.nav-list {
+    list-style-type: none;
+}
+
+.nav-items {
+    color: yellow;
+}
+
+.links-name {
+    color: yellow;
+}
+
+.user-img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 48px;
+    top: 32px;
+}
+
+.nav-dashboard {
+    position: absolute;
+    width: 101px;
+    height: 86px;
+    left: 30px;
+    top: 144px;
+}
+
+.nav-selfserv {
+    position: absolute;
+    width: 105px;
+    height: 86px;
+    left: 27px;
+    top: 254px;
+}
+
+.nav-settings {
+    position: absolute;
+    width: 76px;
+    height: 86px;
+    left: 42px;
+    top: 364px;
+}
+
+.nav-help {
+    position: absolute;
+    width: 56px;
+    height: 86px;
+    left: 52px;
+    top: 474px;
+}
+
+.nav-other {
+    position: absolute;
+    width: 56px;
+    height: 86px;
+    left: 52px;
+    top: 584px;
+}
+
+.left-margin {
+    margin-left: 160px;
 }
