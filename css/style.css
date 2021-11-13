@@ -96,3 +96,7 @@
     border-top-width: 5px;
     border-bottom-width: 5px;
 }
+
+.main{
+    padding-left: var(--navwidth);
+}
