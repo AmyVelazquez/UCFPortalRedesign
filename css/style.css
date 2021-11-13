@@ -103,3 +103,7 @@
 .nav-tiles {
    margin: 20px;
 }
+
+.main{
+    padding-left: var(--navwidth);
+}
