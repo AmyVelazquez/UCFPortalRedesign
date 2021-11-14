@@ -22,15 +22,11 @@
 
 .navbar {
     margin-left: var(--navwidth);
+    display: flex;
+    justify-content: flex-start;
 }
 
-/* .button-search {
-    border: solid;
-    border-width: 1px;
-    border-color: var(--ucf-black);
-    margin: 10px;
 } */
-
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
     position: fixed;
@@ -268,4 +264,22 @@
     border-width: 1px;
     border-color: var(--ucf-black);
     margin: 10px;
+}
+
+/* --------------------------------ACCOUNTS------------------------- */
+
+.accounts-links a {
+    border: none;
+}
+
+.financial-links a {
+    border: none;
+}
+
+.accounts-links {
+    padding-right: 85%;
+}
+
+.financial-links {
+    padding-right: 84%;
 }
