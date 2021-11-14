@@ -1,6 +1,18 @@
 :root {
     --navwidth: 160px;
-
+    
+    --ucf-primary: #FFCC00;
+    --ucf-black: #1B1B1B;
+    
+    --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
+    --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
+    --ucf-h3: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 700;
+    --ucf-h4: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 500;
+    
+    --ucf-p1: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
+    --ucf-p2: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
+    --ucf-p3: font-family: 'Open Sans', sans-serif font-size: 16px font-weight: 400;
+    
 }
 
 * {
@@ -8,7 +20,13 @@
     padding: 0;
 }
 
-/* SIDEBAR */
+.navbar {
+    margin-left: var(--navwidth);
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* --------------------------SIDEBAR------------------------- */
 .sidebar {
     position: fixed;
     width: var(--navwidth);
@@ -16,7 +34,7 @@
     left: 0px;
     top: 0px;
 
-    background: #1B1B1B;
+    background: var(--ucf-black);
 }
 
 .nav-list {
@@ -25,7 +43,7 @@
 }
 
 .nav-items {
-    color: #FFCC00;
+    color: var(--ucf-primary);
 }
 
 .nav-items img {
@@ -34,7 +52,7 @@
 }
 
 .links-name {
-    color: #FFCC00;
+    color: var(--ucf-primary);
 }
 
 .user-img {
@@ -89,7 +107,7 @@
     margin-left: var(--navwidth);
 }
 
-/* ANNOUNCEMENTS AND TO DOS */
+/* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
     border-style: solid;
@@ -99,11 +117,168 @@
     border-bottom-width: 5px;
 }
 
-/* MIDDLE NAV TILES */
+/* --------------------------MIDDLE NAV TILES------------------------------ */
 .nav-tiles {
-   margin: 20px;
+   color: var(--ucf-primary);
+   text-align: center;
+}
+
+.nav-tiles img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.nav-tile {
+    cursor: pointer;
+    background-color: var(--ucf-black);
+    padding: 18px;
+    margin-top: 20px;
 }
 
 .main{
     padding-left: var(--navwidth);
+}
+
+
+@media (min-width: 575.98px) {
+    .nav-tiles img {
+        display: block;
+        margin: auto;
+        width: 10%;
+    }
+}
+
+
+@media (min-width: 767.98px) {
+    .nav-tiles img {
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .nav-tiles img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1199.98px) {
+    .nav-tiles img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1399.98px) {
+    .nav-tiles img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+/* -------------------------SCHEDULE HEADER AND TABLE--------------------- */
+
+.schedule-header {
+    margin: 0;
+    padding: 0;
+    font: var(--ucf-h1);
+}
+
+.table-links {
+    background-color: var(--ucf-black);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.schedule-table {
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    background-color: grey;
+}
+
+.semester-one {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.semester-two {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.semester-all {
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* -------------------------------BUTTON ROW ------------------------- */
+
+.button-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-class {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-black);
+    margin: 10px;
+}
+
+.button-books {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-black);
+    margin: 10px;
+}
+
+.button-grades {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-black);
+    margin: 10px;
+}
+
+.button-transcripts {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-black);
+    margin: 10px;
+}
+
+.button-other {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-black);
+    margin: 10px;
+}
+
+/* --------------------------------ACCOUNTS------------------------- */
+
+.accounts-links a {
+    border: none;
+}
+
+.financial-links a {
+    border: none;
+}
+
+.accounts-links {
+    padding-right: 85%;
+}
+
+.financial-links {
+    padding-right: 84%;
 }
