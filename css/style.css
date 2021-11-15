@@ -282,3 +282,15 @@
 .financial-links {
     padding-right: 84%;
 }
+
+/* -----------------------------------TERM SELECT-------------------------------- */
+
+.termselect-head {
+    font: var(--ucf-h1);
+}
+
+.term-table-head {
+    color: white;
+    font: var(--ucf-h1);
+    background-color: var(--ucf-black);
+}
