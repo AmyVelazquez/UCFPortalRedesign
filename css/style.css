@@ -3,6 +3,9 @@
     
     --ucf-primary: #FFCC00;
     --ucf-black: #1B1B1B;
+    --ucf-dkgrey: #3D3D3D;
+    --ucf-mdgrey: #989898;
+    --ucf-ltgrey: #E1E1E1;
     
     --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
     --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
@@ -290,7 +293,20 @@
 }
 
 .term-table-head {
+    padding: 5px;
     color: white;
     font: var(--ucf-h1);
     background-color: var(--ucf-black);
+}
+
+.term-table-one {
+    background-color: var(--ucf-ltgrey);
+}
+
+.term-table-two {
+    background-color: var(--ucf-mdgrey);
+}
+
+.term-table-three {
+    background-color: var(--ucf-ltgrey);
 }
