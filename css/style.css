@@ -7,7 +7,7 @@
     --ucf-mdgrey: #989898;
     --ucf-ltgrey: #E1E1E1;
     
-    --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
+    --ucf-h1: font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 500;
     --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
     --ucf-h3: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 700;
     --ucf-h4: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 500;
@@ -116,6 +116,17 @@
 .left-margin {
     margin-left: var(--navwidth);
 }
+
+/* ----------------------BACKGROUND IMAGE------------------------- */
+.background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
 
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
