@@ -110,6 +110,14 @@
     margin-left: var(--navwidth);
 }
 
+/* ----------------------BACKGROUND IMAGE------------------------- */
+.background {
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+    z-index: 0;
+}
+
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
