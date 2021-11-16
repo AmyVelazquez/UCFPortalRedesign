@@ -29,6 +29,10 @@
     justify-content: flex-start;
 }
 
+.navbar-brand {
+    font: var(--ucf-h1);
+}
+
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
     position: fixed;
@@ -205,11 +209,10 @@
 .schedule-table {
     margin: 0;
     padding: 0;
+    background-color: var(--ucf-mdgrey);
 }
 
-.table {
-    background-color: grey;
-}
+
 
 .semester-one {
     margin: 10px;
