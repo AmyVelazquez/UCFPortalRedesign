@@ -41,38 +41,38 @@
             <div class="sidebar">
                 <div class="img-holder">
                     <div class="user-img">
-                        <img src="./images/ProfilePictureDellilah.png" alt="Profile">
+                        <img src="images/ProfilePictureDellilah.png" alt="Profile">
                     </div>
                 </div>
                 <div class="nav-items">
                     <ul class="nav-list">
                         <li class="nav-dashboard">
                             <a href="">
-                                <img src="./images/dashboard.png" alt="Dashboard">
+                                <img src="images/dashboard.png" alt="Dashboard">
                                 <span class="links-name">Dashboard</span>
                             </a>
                         </li>
                         <li class="nav-selfserv">
                             <a href="">
-                                <img src="./images/selfservice.png" alt="Self Service">
+                                <img src="images/selfservice.png" alt="Self Service">
                                 <span class="links-name">Self-Service</span>
                             </a>
                         </li>
                         <li class="nav-settings">
                             <a href="">
-                                <img src="./images/settings.png" alt="Settings">
+                                <img src="images/settings.png" alt="Settings">
                                 <span class="links-name">Settings</span>
                             </a>
                         </li>
                         <li class="nav-help">
                             <a href="">
-                                <img src="./images/help.png" alt="Help">
+                                <img src="images/help.png" alt="Help">
                                 <span class="links-name">Help</span>
                             </a>
                         </li>
                         <li class="nav-other">
                             <a href="">
-                                <img src="./images/other.png" alt="Other">
+                                <img src="images/other.png" alt="Other">
                                 <span class="links-name">Other</span>
                             </a>
                         </li>
@@ -84,16 +84,18 @@
 
         <div class="main">
             <!---------------- PUT YOUR CODE HERE ----------------->
+            <!---------------- SHOPPING CART ----------------->
+
             <div class="container">
                 <div class="table-responsive">
                     <h1>Your Shopping Cart</h1>
-                    <table class="tableCart table-striped table-responsive table-bordered">
-                        <thead-light>
+                    <table class="table table-striped">
+                        <thead class="thead-light">
                             <tr>
                                 <th scope="col">Enroll</th>
                                 <th scope="col">Availablility</th>
                                 <th scope="col">Class</th>
-                                <th scope="col">Description</th>
+                                <th scope="col">Desrciption</th>
                                 <th scope="col">Days/Time</th>
                                 <th scope="col">Room</th>
                                 <th scope="col">Instructor</th>
@@ -103,17 +105,10 @@
                             </tr>
                             </thead>
                             <tbody>
-                                <!-- Check Box Code <tr>
-                                <td scope="row">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <input type="checkbox" aria-label="Checkbox to Enroll">
-                                            </div>
-                                        </div>
-                                </td>
-                             -->
-                                <td><img scr="./images/CheckBoxActive.png" alt="Checked"></td>
+                            
+                                <td><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                  </div></td>
                                 <td>Reserved</td>
                                 <td>PSY 2012</td>
                                 <td>General Psychology</td>
@@ -121,21 +116,13 @@
                                 <td>CB2 0101</td>
                                 <td>Hooman Faily</td>
                                 <td>3.00</td>
-                                <td><img scr="./images/StatusOpen.png" alt="Status Open"></td>
-                                <td><img scr="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
+                                <td style="text-align:center"><img src="./images/StatusOpen.png" alt="Status Open"></td>
+                                <td style="text-align:center"><img src="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
                                 </tr>
                                 <tr>
-                                    <!-- Check Box Code <tr>
-                                <td scope="row">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <input type="checkbox" aria-label="Checkbox to Enroll">
-                                            </div>
-                                        </div>
-                                </td>
-                             -->
-                                    <td><img scr="./images/CheckBoxActive.png" alt="Checked"></td>
+                                    <td><div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      </div></td>
                                     <td>Reserved</td>
                                     <td>HIS 0101-HI01</td>
                                     <td>History 101</td>
@@ -143,21 +130,13 @@
                                     <td>HI5 0101</td>
                                     <td>Julius Caesar</td>
                                     <td>3.00</td>
-                                    <td><img scr="./images/StatusOpen.png" alt="Status Open"></td>
-                                    <td><img scr="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
+                                    <td style="text-align:center"><img src="./images/StatusOpen.png" alt="Status Open"></td>
+                                    <td style="text-align:center"><img src="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
                                 </tr>
                                 <tr>
-                                    <!-- Check Box Code <tr>
-                                <td scope="row">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <input type="checkbox" aria-label="Checkbox to Enroll">
-                                            </div>
-                                        </div>
-                                </td>
-                             -->
-                                    <td><img scr="./images/CheckBoxActive.png" alt="Checked"></td>
+                                    <td><div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      </div></td>
                                     <td>Reserved</td>
                                     <td>MAT 0101-MA01</td>
                                     <td>Mathmatics 101</td>
@@ -165,21 +144,13 @@
                                     <td>MA4 0101</td>
                                     <td>Isaac Newton</td>
                                     <td>3.00</td>
-                                    <td><img scr="./images/StatusOpen.png" alt="Status Open"></td>
-                                    <td><img scr="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
+                                    <td style="text-align:center"><img src="./images/StatusOpen.png" alt="Status Open"></td>
+                                    <td style="text-align:center"><img src="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
                                 </tr>
                                 <tr>
-                                    <!-- Check Box Code <tr>
-                                <td scope="row">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <input type="checkbox" aria-label="Checkbox to Enroll">
-                                            </div>
-                                        </div>
-                                </td>
-                             -->
-                                    <td><img scr="./images/CheckBoxActive.png" alt="Checked"></td>
+                                    <td><div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      </div></td>
                                     <td>Reserved</td>
                                     <td>ENG 0101-EN01</td>
                                     <td>English 101</td>
@@ -187,21 +158,13 @@
                                     <td>EN2 0101</td>
                                     <td>Mister Bean</td>
                                     <td>3.00</td>
-                                    <td><img scr="./images/StatusOpen.png" alt="Status Open"></td>
-                                    <td><img scr="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
+                                    <td style="text-align:center"><img src="./images/StatusOpen.png" alt="Status Open"></td>
+                                    <td style="text-align:center"><img src="./images/TrashcanDisabled.png" alt="Trashcan Disabled"></td>
                                 </tr>
                                 <tr>
-                                    <!-- Check Box Code <tr>
-                                <td scope="row">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <input type="checkbox" aria-label="Checkbox to Enroll">
-                                            </div>
-                                        </div>
-                                </td>
-                             -->
-                                    <td><img scr="./images/CheckBoxInactive.png" alt="Unchecked"></td>
+                                    <td><div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      </div></td>
                                     <td>Reserved</td>
                                     <td>ART 0101-AH01</td>
                                     <td>Art History 101</td>
@@ -209,14 +172,14 @@
                                     <td>AR1 0101</td>
                                     <td>Vincent Van Gogh</td>
                                     <td>3.00</td>
-                                    <td><img scr="./images/StatusWaitListed.png" alt="Status Wait Listed"></td>
-                                    <td><img scr="./images/TrashcanActive.png" alt="Trashcan Active"></td>
+                                    <td style="text-align:center"><img src="./images/StatusWaitListed.png" alt="Status Wait Listed"></td>
+                                    <td style="text-align:center"><img src="./images/TrashcanActive.png" alt="Trashcan Active"></td>
                                 </tr>
                             </tbody>
                     </table>
                     <div class="container">
-                        <div class="ButtonDefault" >Go Back</div>
-                        <div class="ButtonDefault">Enroll</div>
+                        <button class="btn btn-primary" >Go Back</button>
+                        <button class="btn btn-primary">Enroll</button>
                     </div>
                 </div>
             </div>

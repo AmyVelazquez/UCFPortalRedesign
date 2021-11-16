@@ -15,6 +15,9 @@
     --ucf-p1: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
     --ucf-p2: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
     --ucf-p3: font-family: 'Open Sans', sans-serif font-size: 16px font-weight: 400;
+
+    --ucf-th: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
+    --ucf-tb: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
     
 }
 
@@ -215,14 +218,7 @@
     padding: 0;
 }
 
-.table {
-    background-color: grey;
-}
 
-
-.tableCart {
-    background-color: white;
-}
 .semester-one {
     margin: 10px;
     cursor: pointer;
@@ -494,40 +490,10 @@ th, td {
   }
 
 /* -----------------------------------BUTTONS-------------------------------- */
-.ButtonHover {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fc0;
+
+  .btn-primary {
+    background-color: var(--ucf-ltgrey);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
   }
 
-  .ButtonDefault {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fff;
-  }
-  .ButtonActive {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #1b1b1b;
-  }
