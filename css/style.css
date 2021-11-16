@@ -15,6 +15,9 @@
     --ucf-p1: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
     --ucf-p2: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
     --ucf-p3: font-family: 'Open Sans', sans-serif font-size: 16px font-weight: 400;
+
+    --ucf-th: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
+    --ucf-tb: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
     
 }
 
@@ -34,7 +37,7 @@
     margin-right:37%;
    
     font-size: 32px;
-}
+
 
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
@@ -115,6 +118,14 @@
 
 .left-margin {
     margin-left: var(--navwidth);
+}
+
+/* ----------------------BACKGROUND IMAGE------------------------- */
+.background {
+    position: absolute;
+    left: 1250px;
+    top: 800px;
+    z-index: -1;
 }
 
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
@@ -216,16 +227,11 @@
 .schedule-table {
     margin: 0;
     padding: 0;
-}
-
-.table {
-    background-color: grey;
+    background-color: var(--ucf-mdgrey);
 }
 
 
-.tableCart {
-    background-color: white;
-}
+
 .semester-one {
     margin: 10px;
     cursor: pointer;
@@ -327,6 +333,15 @@
 }
 
 /* -----------------------------------SEARCH FORM-------------------------------- */
+
+.search-form {
+    background-color: rgba(225, 225, 225, 1);
+    padding:20px;
+    width:616px;
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
 /*-------FORM&OX---------*/
 
 .head2{
@@ -406,12 +421,14 @@ input[type="reset"], input[type="button"]{
     font-size: 20px;
     padding: 0px;
     border:var(--ucf-black) solid 2px;
+    border: --ucf-black solid 2px;
     margin: 17px ;
     margin-left: 270px;
 
 }
 input[type="button" ]{
     background-color:var(--ucf-black);
+    background-color: var(--ucf-black);
     color: white;
     margin: 20px 0;
 
@@ -420,6 +437,7 @@ input[type="button" ]{
 input[type="button"]:hover {
     cursor: pointer;
     background-color:var(--ucf-primary);
+    color: var(--ucf-black)
 }
 
 /*-------BUTTONS&FIELD---------*/
@@ -497,40 +515,10 @@ th, td {
   }
 
 /* -----------------------------------BUTTONS-------------------------------- */
-.ButtonHover {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fc0;
+
+  .btn-primary {
+    background-color: var(--ucf-ltgrey);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
   }
 
-  .ButtonDefault {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fff;
-  }
-  .ButtonActive {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #1b1b1b;
-  }
