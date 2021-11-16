@@ -7,14 +7,22 @@
     --ucf-mdgrey: #989898;
     --ucf-ltgrey: #E1E1E1;
     
-    --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
-    --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
-    --ucf-h3: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 700;
-    --ucf-h4: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 500;
+    --ucf-h1: font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 500;
+    --ucf-h2: font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700;
+    --ucf-h3: font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700;
+    --ucf-h4: font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 500;
     
     --ucf-p1: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
     --ucf-p2: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
     --ucf-p3: font-family: 'Open Sans', sans-serif font-size: 16px font-weight: 400;
+
+    --ucf-th: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
+    --ucf-tb: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
+<<<<<<< HEAD
+
+    --ucf-button: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
+=======
+>>>>>>> parent of 1aea5ce (Ralph container fix)
     
 }
 
@@ -28,6 +36,13 @@
     display: flex;
     justify-content: flex-start;
 }
+
+.navbar-brand{
+
+    margin-right:37%;
+   
+    font-size: 32px;
+
 
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
@@ -110,6 +125,25 @@
     margin-left: var(--navwidth);
 }
 
+/* ----------------------BACKGROUND IMAGE------------------------- */
+.background {
+    position: absolute;
+<<<<<<< HEAD
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+
+=======
+    left: 1250px;
+    top: 800px;
+    z-index: -1;
+}
+
+>>>>>>> parent of 1aea5ce (Ralph container fix)
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
@@ -137,6 +171,10 @@
     background-color: var(--ucf-black);
     padding: 18px;
     margin-top: 20px;
+}
+.nav-tile a{
+    color:var(--ucf-primary);
+    text-decoration: none;
 }
 
 .main{
@@ -205,16 +243,11 @@
 .schedule-table {
     margin: 0;
     padding: 0;
-}
-
-.table {
-    background-color: grey;
+    background-color: var(--ucf-mdgrey);
 }
 
 
-.tableCart {
-    background-color: white;
-}
+
 .semester-one {
     margin: 10px;
     cursor: pointer;
@@ -316,6 +349,19 @@
 }
 
 /* -----------------------------------SEARCH FORM-------------------------------- */
+
+.search-form {
+    background-color: rgba(225, 225, 225, 1);
+    padding:20px;
+<<<<<<< HEAD
+    width:800px;
+=======
+    width:616px;
+>>>>>>> parent of 1aea5ce (Ralph container fix)
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
 /*-------FORM&OX---------*/
 
 .head2{
@@ -324,7 +370,7 @@
     margin-right: 1%;
 }
 
-.container{
+.container-form{
     
     display: flex;
     justify-content:center;
@@ -335,7 +381,7 @@
     background-color: rgba(225, 225, 225, 1);
     padding:0px;
     width:616px;
-    border: black solid 2px;
+    border: var(--ucf-black) solid 2px;
     margin-bottom: 26px;
 }
 
@@ -346,7 +392,7 @@
   text-decoration: none;
   padding: 10px 16px;
     list-style: none;
-    background-color: #1B1B1B;
+    background-color: var(--ucf-black);
     margin-bottom: 26px;
 }
 
@@ -369,7 +415,7 @@ label {
 input[type="text"]{
     width:251px;
     height:34px;
-    border: black solid 2px;
+    border: var(--ucf-black) solid 2px;
 }
 .course-n input[type="text"]{
     width:88px;
@@ -379,7 +425,7 @@ input[type="text"]{
 select{
     width:251px;
     height:34px;  
-    border: black solid 2px; 
+    border:var(--ucf-black) solid 2px; 
 }
 select[name=Course-number]{
     width:154px;
@@ -394,13 +440,15 @@ input[type="reset"], input[type="button"]{
     height: 34px;
     font-size: 20px;
     padding: 0px;
-    border: black solid 2px;
+    border:var(--ucf-black) solid 2px;
+    border: --ucf-black solid 2px;
     margin: 17px ;
     margin-left: 270px;
 
 }
 input[type="button" ]{
-    background-color: black;
+    background-color:var(--ucf-black);
+    background-color: var(--ucf-black);
     color: white;
     margin: 20px 0;
 
@@ -408,7 +456,8 @@ input[type="button" ]{
 
 input[type="button"]:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color:var(--ucf-primary);
+    color: var(--ucf-black)
 }
 
 /*-------BUTTONS&FIELD---------*/
@@ -486,40 +535,13 @@ th, td {
   }
 
 /* -----------------------------------BUTTONS-------------------------------- */
-.ButtonHover {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fc0;
+
+<<<<<<< HEAD
+=======
+  .btn-primary {
+    background-color: var(--ucf-ltgrey);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
   }
 
-  .ButtonDefault {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #fff;
-  }
-  .ButtonActive {
-    width: 282px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    border: solid 2px #1b1b1b;
-    background-color: #1b1b1b;
-  }
+>>>>>>> parent of 1aea5ce (Ralph container fix)
