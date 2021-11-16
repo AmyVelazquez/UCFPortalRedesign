@@ -211,6 +211,10 @@
     background-color: grey;
 }
 
+
+.tableCart {
+    background-color: white;
+}
 .semester-one {
     margin: 10px;
     cursor: pointer;
@@ -475,3 +479,47 @@ ul.breadcrumb li {
     padding-bottom: 9px;
   }
     
+
+/* -----------------------------------SHOPPING CART-------------------------------- */
+th, td {
+    padding: 10px;
+  }
+
+/* -----------------------------------BUTTONS-------------------------------- */
+.ButtonHover {
+    width: 282px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    border: solid 2px #1b1b1b;
+    background-color: #fc0;
+  }
+
+  .ButtonDefault {
+    width: 282px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    border: solid 2px #1b1b1b;
+    background-color: #fff;
+  }
+  .ButtonActive {
+    width: 282px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    border: solid 2px #1b1b1b;
+    background-color: #1b1b1b;
+  }
