@@ -116,9 +116,9 @@
 /* ----------------------BACKGROUND IMAGE------------------------- */
 .background {
     position: absolute;
-    left: 1000px;
-    top: 600px;
-    z-index: 0;
+    left: 1250px;
+    top: 800px;
+    z-index: -1;
 }
 
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
@@ -320,6 +320,15 @@
 }
 
 /* -----------------------------------SEARCH FORM-------------------------------- */
+
+.search-form {
+    background-color: rgba(225, 225, 225, 1);
+    padding:20px;
+    width:616px;
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
 /*-------FORM&OX---------*/
 
 .head2{
