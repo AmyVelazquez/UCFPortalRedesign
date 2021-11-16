@@ -311,6 +311,170 @@
     background-color: var(--ucf-ltgrey);
 }
 
+/* -----------------------------------SEARCH FORM-------------------------------- */
+/*-------FORM&OX---------*/
+
+.head2{
+    margin-top:5% ;
+    margin-left:13%;
+    margin-right: 1%;
+}
+
+.container{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:700px;  
+}
+.login-form{
+    background-color: rgba(225, 225, 225, 1);
+    padding:0px;
+    width:616px;
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
+.login-form h1 {
+    font-size: 18px;
+  font-weight: bold;
+  color:#FFFFFF ;
+  text-decoration: none;
+  padding: 10px 16px;
+    list-style: none;
+    background-color: #1B1B1B;
+    margin-bottom: 26px;
+}
+
+
+
+/*------BUTTONS&FIELD---------*/
+
+.flex-input{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+
+label {
+    flex-basis: 250px;
+    margin-top: 10px;
+    font-size:20px;
+}
+input[type="text"]{
+    width:251px;
+    height:34px;
+    border: black solid 2px;
+}
+.course-n input[type="text"]{
+    width:88px;
+    height:34px;
+    margin-left: 9px;
+}
+select{
+    width:251px;
+    height:34px;  
+    border: black solid 2px; 
+}
+select[name=Course-number]{
+    width:154px;
+}
+select[name=advanced]{
+    width:125px;
+    
+}
+
+input[type="reset"], input[type="button"]{
+    width: 117px;
+    height: 34px;
+    font-size: 20px;
+    padding: 0px;
+    border: black solid 2px;
+    margin: 17px ;
+    margin-left: 270px;
+
+}
+input[type="button" ]{
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+/*-------BUTTONS&FIELD---------*/
+
+ul.breadcrumb{
+    padding: 10px 16px;
+    list-style: none;
+    
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: rgba(186, 186, 186, 1);
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  /* FOR BLACK SEARCH NAV */
+
+  ul.search-nav {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #1B1B1B;
+  }
+  
+  /* Display list items side by side */
+  ul.search-nav li {
+    display: inline;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  
+ 
+  
+  /* Add a color to all links inside the list */
+  .search-nav li a {
+      font-weight: bold;
+    color:#FFFFFF ;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  .search-nav li a:hover {
+    color:#FFCC00;
+    
+
+  }
+  .search-nav li a.active{
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+  }
+    
 
 /* -----------------------------------SHOPPING CART-------------------------------- */
 th, td {
@@ -323,5 +487,5 @@ th, td {
     background-color: var(--ucf-ltgrey);
     color: var(--ucf-black);
     font: var(--ucf-p1);
-
   }
+
