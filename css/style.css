@@ -7,10 +7,10 @@
     --ucf-mdgrey: #989898;
     --ucf-ltgrey: #E1E1E1;
     
-    --ucf-h1: font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 500;
-    --ucf-h2: font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700;
-    --ucf-h3: font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700;
-    --ucf-h4: font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 500;
+    --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
+    --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
+    --ucf-h3: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 700;
+    --ucf-h4: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 500;
     
     --ucf-p1: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
     --ucf-p2: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
@@ -18,11 +18,6 @@
 
     --ucf-th: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
     --ucf-tb: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 600;
-<<<<<<< HEAD
-
-    --ucf-button: font-family: 'Open Sans', sans-serif font-size: 18px font-weight: 700;
-=======
->>>>>>> parent of 1aea5ce (Ralph container fix)
     
 }
 
@@ -128,22 +123,11 @@
 /* ----------------------BACKGROUND IMAGE------------------------- */
 .background {
     position: absolute;
-<<<<<<< HEAD
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
-
-
-
-
-=======
     left: 1250px;
     top: 800px;
     z-index: -1;
 }
 
->>>>>>> parent of 1aea5ce (Ralph container fix)
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
@@ -353,11 +337,7 @@
 .search-form {
     background-color: rgba(225, 225, 225, 1);
     padding:20px;
-<<<<<<< HEAD
-    width:800px;
-=======
     width:616px;
->>>>>>> parent of 1aea5ce (Ralph container fix)
     border: black solid 2px;
     margin-bottom: 26px;
 }
@@ -536,12 +516,9 @@ th, td {
 
 /* -----------------------------------BUTTONS-------------------------------- */
 
-<<<<<<< HEAD
-=======
   .btn-primary {
     background-color: var(--ucf-ltgrey);
     color: var(--ucf-black);
     font: var(--ucf-p1);
   }
 
->>>>>>> parent of 1aea5ce (Ralph container fix)
