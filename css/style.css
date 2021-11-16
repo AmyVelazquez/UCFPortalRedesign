@@ -329,6 +329,15 @@
 }
 
 /* -----------------------------------SEARCH FORM-------------------------------- */
+
+.search-form {
+    background-color: rgba(225, 225, 225, 1);
+    padding:20px;
+    width:616px;
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
 /*-------FORM&OX---------*/
 
 .head2{
@@ -407,13 +416,13 @@ input[type="reset"], input[type="button"]{
     height: 34px;
     font-size: 20px;
     padding: 0px;
-    border: black solid 2px;
+    border: --ucf-black solid 2px;
     margin: 17px ;
     margin-left: 270px;
 
 }
 input[type="button" ]{
-    background-color: black;
+    background-color: var(--ucf-black);
     color: white;
     margin: 20px 0;
 
@@ -421,7 +430,8 @@ input[type="button" ]{
 
 input[type="button"]:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color:var(--ucf-primary);
+    color: var(--ucf-black)
 }
 
 /*-------BUTTONS&FIELD---------*/
