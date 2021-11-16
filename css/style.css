@@ -327,6 +327,15 @@
 }
 
 /* -----------------------------------SEARCH FORM-------------------------------- */
+
+.search-form {
+    background-color: rgba(225, 225, 225, 1);
+    padding:20px;
+    width:800px;
+    border: black solid 2px;
+    margin-bottom: 26px;
+}
+
 /*-------FORM&OX---------*/
 
 .head2{
