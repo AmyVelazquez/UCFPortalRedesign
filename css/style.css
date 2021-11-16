@@ -7,7 +7,7 @@
     --ucf-mdgrey: #989898;
     --ucf-ltgrey: #E1E1E1;
     
-    --ucf-h1: font-family: 'Montserrat', sans-serif font-size: 32px font-weight: 500;
+    --ucf-h1: font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 500;
     --ucf-h2: font-family: 'Montserrat', sans-serif font-size: 24px font-weight: 700;
     --ucf-h3: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 700;
     --ucf-h4: font-family: 'Montserrat', sans-serif font-size: 18px font-weight: 500;
@@ -34,8 +34,11 @@
     justify-content: flex-start;
 }
 
-.navbar-brand {
-    font: var(--ucf-h1);
+.navbar-brand{
+
+    margin-right:37%;
+    font: 32px;
+    font-size: 32px;
 }
 
 /* --------------------------SIDEBAR------------------------- */
@@ -122,10 +125,13 @@
 /* ----------------------BACKGROUND IMAGE------------------------- */
 .background {
     position: absolute;
-    left: 1250px;
-    top: 800px;
+    bottom: 0;
+    right: 0;
     z-index: -1;
 }
+
+
+
 
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
@@ -154,6 +160,10 @@
     background-color: var(--ucf-black);
     padding: 18px;
     margin-top: 20px;
+}
+.nav-tile a{
+    color:var(--ucf-primary);
+    text-decoration: none;
 }
 
 .main{
@@ -222,11 +232,16 @@
 .schedule-table {
     margin: 0;
     padding: 0;
-    background-color: var(--ucf-mdgrey);
+}
+
+.table {
+    background-color: grey;
 }
 
 
-
+.tableCart {
+    background-color: white;
+}
 .semester-one {
     margin: 10px;
     cursor: pointer;
@@ -345,7 +360,7 @@
     margin-right: 1%;
 }
 
-.container{
+.container-box{
     
     display: flex;
     justify-content:center;
@@ -356,7 +371,7 @@
     background-color: rgba(225, 225, 225, 1);
     padding:0px;
     width:616px;
-    border: black solid 2px;
+    border: var(--ucf-black) solid 2px;
     margin-bottom: 26px;
 }
 
@@ -367,7 +382,7 @@
   text-decoration: none;
   padding: 10px 16px;
     list-style: none;
-    background-color: #1B1B1B;
+    background-color: var(--ucf-black);
     margin-bottom: 26px;
 }
 
@@ -390,7 +405,7 @@ label {
 input[type="text"]{
     width:251px;
     height:34px;
-    border: black solid 2px;
+    border: var(--ucf-black) solid 2px;
 }
 .course-n input[type="text"]{
     width:88px;
@@ -400,7 +415,7 @@ input[type="text"]{
 select{
     width:251px;
     height:34px;  
-    border: black solid 2px; 
+    border:var(--ucf-black) solid 2px; 
 }
 select[name=Course-number]{
     width:154px;
@@ -415,13 +430,13 @@ input[type="reset"], input[type="button"]{
     height: 34px;
     font-size: 20px;
     padding: 0px;
-    border: --ucf-black solid 2px;
+    border:var(--ucf-black) solid 2px;
     margin: 17px ;
     margin-left: 270px;
 
 }
 input[type="button" ]{
-    background-color: var(--ucf-black);
+    background-color:var(--ucf-black);
     color: white;
     margin: 20px 0;
 
@@ -430,7 +445,6 @@ input[type="button" ]{
 input[type="button"]:hover {
     cursor: pointer;
     background-color:var(--ucf-primary);
-    color: var(--ucf-black)
 }
 
 /*-------BUTTONS&FIELD---------*/
@@ -508,11 +522,16 @@ th, td {
   }
 
 /* -----------------------------------BUTTONS-------------------------------- */
-
-  .btn-primary {
-    background-color: var(--ucf-ltgrey);
-    color: var(--ucf-black);
-    font: var(--ucf-p1);
+.ButtonHover {
+    width: 282px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    border: solid 2px #1b1b1b;
+    background-color: #fc0;
   }
-
 
