@@ -520,5 +520,58 @@ th, td {
     background-color: var(--ucf-ltgrey);
     color: var(--ucf-black);
     font: var(--ucf-p1);
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid var(--ucf-black);
+    outline: none;
+    box-shadow: none;
   }
 
+  .btn-primary:hover {
+	background-color: var(--ucf-primary);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
+    border-radius: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary:active {
+	background-color: var(--ucf-black);
+    color: white;
+    font: var(--ucf-p1);
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus {
+	background-color: var(--ucf-primary);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
+    border-radius: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none;
+    box-shadow: none;
+  }
+
+  .btn-primary.btn-primary:onClick {
+	background-color: var(--ucf-black);
+    color: white;
+    font: var(--ucf-p1);
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none;
+    box-shadow: none;
+}
