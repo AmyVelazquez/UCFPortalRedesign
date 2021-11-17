@@ -332,6 +332,29 @@
     background-color: var(--ucf-ltgrey);
 }
 
+/*---------------------------Links No Underline---------------------------------------*/
+
+a:link {
+    text-decoration: none !important;
+ }
+
+ a:visited {
+    text-decoration: none !important;
+ }
+
+ a:hover {
+    text-decoration: none !important;
+ }
+ 
+ a:active {
+    text-decoration: none !important;
+ }
+
+a:focus {
+    text-decoration: none !important;
+}
+
+
 /* -----------------------------------SEARCH FORM-------------------------------- */
 
 .search-form {
@@ -515,6 +538,9 @@ th, td {
   }
 
 /* -----------------------------------BUTTONS-------------------------------- */
+a.btn {
+    text-decoration: none !important;
+  }
 
   .btn-primary {
     background-color: var(--ucf-ltgrey);
@@ -526,6 +552,7 @@ th, td {
     border: 2px solid var(--ucf-black);
     outline: none !important;
     box-shadow: none !important;
+    text-decoration: none;
   }
 
   .btn-primary:hover {
@@ -538,6 +565,7 @@ th, td {
     border: 2px solid var(--ucf-black);
     outline: none !important;
     box-shadow: none !important;
+    text-decoration: none;
 }
 
 .btn-primary:active {
@@ -550,6 +578,7 @@ th, td {
     border: 2px solid var(--ucf-black);
     outline: none !important;
     box-shadow: none !important;
+    text-decoration: none;
 }
 .btn:focus {
 	background-color: var(--ucf-black);
@@ -561,5 +590,5 @@ th, td {
     border: 2px solid var(--ucf-black);
     outline: none !important;
     box-shadow: none !important;
+    text-decoration: none;
   }
-
