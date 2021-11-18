@@ -592,3 +592,9 @@ a.btn {
     box-shadow: none !important;
     text-decoration: none;
   }
+
+/* -----------------------------------Textbook Section -------------------------------- */
+  .textbookSection {
+    padding-top: 40px;
+    font: var(--ucf-h1);
+}
