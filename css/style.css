@@ -658,22 +658,6 @@ a.btn {
     box-shadow: none !important;
     text-decoration: none;
 }
-.btn:focus {
-	background-color: var(--ucf-black);
-    color: white;
-    font: var(--ucf-p1);
-    font-weight: bold;
-    border-radius: 0;
-    text-transform: uppercase;
-    border: 2px solid var(--ucf-black);
-    outline: none !important;
-    box-shadow: none !important;
-    text-decoration: none;
-  }
-
-
-
-
 
 /* -----------------------------------Textbook Section -------------------------------- */
   .textbookSection {
