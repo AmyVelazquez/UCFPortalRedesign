@@ -167,6 +167,7 @@ body {
     border-bottom-width: 5px;
 }
 
+
 /* --------------------------MIDDLE NAV TILES------------------------------ */
 .nav-tiles {
    color: var(--ucf-primary);
@@ -185,6 +186,7 @@ body {
     background-color: var(--ucf-black);
     padding: 18px;
     margin-top: 20px;
+    margin-bottom: -20px;
 }
 .nav-tile a{
     color:var(--ucf-primary);
