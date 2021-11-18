@@ -31,9 +31,9 @@
 }
 
 .navbar-brand {
-   
-    font-size: 32px;
+   font-size: 32px;
 }
+
 
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
@@ -42,7 +42,6 @@
     height: 100vh;
     left: 0px;
     top: 0px;
-
     background: var(--ucf-black);
 }
 
