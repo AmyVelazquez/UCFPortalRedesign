@@ -224,10 +224,30 @@
                             <td>Vincent Van Gogh</td>
                             <td>3.00</td>
                             <td><img src="./images/StatusWaitListed.png" alt="Status Wait Listed"></td>
-                            <td><img src="./images/TrashcanActive.png" alt="Trashcan Active"></td>
+                            <td><img class="trashcan-active" src="./images/TrashcanActive.png" alt="Trashcan Active" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
                         </tr>
                     </tbody>
                 </table>
+
+                <!---------------------- Button trigger modal -------------------------->
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Delete From Shopping Cart?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to delete ART 0101-AH01 Art History 101 from your shopping cart?</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <a href="shopping-cart-updated.html"><button type="button" class="btn btn-primary">Delete</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
                 <!---------------- BUTTONS----------------->
 

@@ -28,12 +28,16 @@
 
 .navbar {
     margin-left: var(--navwidth);
+    display: flex;
+    justify-content: flex-start;
 }
 
-.navbar-brand {
-   font-size: 32px;
-}
+.navbar-brand{
 
+    
+   
+    font-size: 32px;
+}
 
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
@@ -42,6 +46,7 @@
     height: 100vh;
     left: 0px;
     top: 0px;
+
     background: var(--ucf-black);
 }
 
@@ -124,11 +129,10 @@ body {
     background-size: 400px;
 }
 
-
-
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
+    margin-top: 20px;
     border-style: solid;
     border-left-width: 32px;
     border-right-width: 5px;
@@ -140,6 +144,7 @@ body {
 .nav-tiles {
    color: var(--ucf-primary);
    text-align: center;
+   padding-top: 20px;
 }
 
 .nav-tiles img {
@@ -211,8 +216,8 @@ body {
 
 .schedule-header {
     margin: 0;
-    padding-top: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
     font: var(--ucf-h1);
 }
 
@@ -224,8 +229,8 @@ body {
 }
 
 .schedule-table {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
     background-color: var(--ucf-mdgrey);
 }
 
@@ -249,6 +254,7 @@ body {
 /* -------------------------------BUTTON ROW ------------------------- */
 
 .button-row {
+    padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -304,6 +310,10 @@ body {
 
 .financial-links {
     padding-right: 84%;
+}
+
+.financial-aid {
+    padding-top: 20px;
 }
 
 /* -----------------------------------TERM SELECT-------------------------------- */
@@ -366,11 +376,7 @@ a:focus {
 
 /*-------FORM&OX---------*/
 
-.head2{
-    margin-top:5% ;
-    margin-left:13%;
-    margin-right: 1%;
-}
+
 
 .container-form{
     
@@ -408,6 +414,10 @@ a:focus {
     width: auto;
     border: var(--ucf-black) solid 2px;
     margin: 26px;
+}
+
+.search-page {
+    margin-bottom: 5px !important;
 }
 
 
@@ -547,6 +557,10 @@ ul.breadcrumb li {
 th, td {
     padding: 10px;
   }
+
+.trashcan-active {
+    cursor: pointer;
+}
 
 /* -----------------------------------BUTTONS-------------------------------- */
 a.btn {
