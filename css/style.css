@@ -413,22 +413,32 @@ a:focus {
     padding-bottom: 30px;
     width: auto;
     border: var(--ucf-black) solid 2px;
-    margin: 26px;
+    margin: 26px 0px;
 }
 
 .search-page {
-    margin-bottom: 5px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.all-classes, .class-cards {
+    padding: 10px;
+    margin: 5px;
 }
 
 .class-cards {
     background-color: rgba(225, 225, 225, 1);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-    width: auto;
+    padding: 20px;
     border: var(--ucf-black) solid 2px;
-    margin: 26px;
+    width: 49%;
 }
+
+.class-list {
+    list-style-type: none;
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
 
 
 /*------BUTTONS&FIELD---------*/
@@ -641,6 +651,7 @@ a.btn {
     outline: none !important;
     box-shadow: none !important;
     text-decoration: none;
+    margin-top: 10px;
   }
 
   .btn-secondary:hover {
@@ -668,18 +679,6 @@ a.btn {
     box-shadow: none !important;
     text-decoration: none;
 }
-.btn:focus {
-	background-color: var(--ucf-black);
-    color: white;
-    font: var(--ucf-p1);
-    font-weight: bold;
-    border-radius: 0;
-    text-transform: uppercase;
-    border: 2px solid var(--ucf-black);
-    outline: none !important;
-    box-shadow: none !important;
-    text-decoration: none;
-  }
 
 
 
