@@ -28,16 +28,12 @@
 
 .navbar {
     margin-left: var(--navwidth);
-    display: flex;
-    justify-content: flex-start;
 }
 
-.navbar-brand{
-
-    margin-right:37%;
-   
-    font-size: 32px;
+.navbar-brand {
+   font-size: 32px;
 }
+
 
 /* --------------------------SIDEBAR------------------------- */
 .sidebar {
@@ -46,7 +42,6 @@
     height: 100vh;
     left: 0px;
     top: 0px;
-
     background: var(--ucf-black);
 }
 
@@ -121,12 +116,15 @@
 }
 
 /* ----------------------BACKGROUND IMAGE------------------------- */
-.background {
-    position: absolute;
-    left: 1250px;
-    top: 800px;
-    z-index: -1;
+body {
+    background-image: url("../images/PegasusBackgroundLogo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 40% 30%;
 }
+
+
 
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
@@ -213,7 +211,8 @@
 
 .schedule-header {
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font: var(--ucf-h1);
 }
 
