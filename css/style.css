@@ -132,6 +132,7 @@ body {
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
+    margin-top: 20px;
     border-style: solid;
     border-left-width: 32px;
     border-right-width: 5px;
@@ -143,6 +144,7 @@ body {
 .nav-tiles {
    color: var(--ucf-primary);
    text-align: center;
+   padding-top: 20px;
 }
 
 .nav-tiles img {
@@ -214,7 +216,8 @@ body {
 
 .schedule-header {
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
     font: var(--ucf-h1);
 }
 
@@ -226,8 +229,8 @@ body {
 }
 
 .schedule-table {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
     background-color: var(--ucf-mdgrey);
 }
 
@@ -251,6 +254,7 @@ body {
 /* -------------------------------BUTTON ROW ------------------------- */
 
 .button-row {
+    padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -306,6 +310,10 @@ body {
 
 .financial-links {
     padding-right: 84%;
+}
+
+.financial-aid {
+    padding-top: 20px;
 }
 
 /* -----------------------------------TERM SELECT-------------------------------- */
