@@ -551,7 +551,7 @@ th, td {
 /* -----------------------------------BUTTONS-------------------------------- */
 a.btn {
     text-decoration: none !important;
-    color: var(--ucf-black);
+
   }
 
   .btn-primary {
@@ -604,6 +604,62 @@ a.btn {
     box-shadow: none !important;
     text-decoration: none;
   }
+
+
+  .btn-secondary {
+	background-color: var(--ucf-black);
+    color: white;
+    font: var(--ucf-p1);
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid var(--ucf-black);
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+  }
+
+  .btn-secondary:hover {
+	background-color: var(--ucf-primary);
+    color: var(--ucf-black);
+    font: var(--ucf-p1);
+    border-radius: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+}
+
+.btn-secondary:active {
+	background-color: var(--ucf-black);
+    color: white;
+    font: var(--ucf-p1);
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+}
+.btn:focus {
+	background-color: var(--ucf-black);
+    color: white;
+    font: var(--ucf-p1);
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 2px solid var(--ucf-black);
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+  }
+
+
+
+
 
 /* -----------------------------------Textbook Section -------------------------------- */
   .textbookSection {
