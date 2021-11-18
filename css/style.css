@@ -33,9 +33,6 @@
 }
 
 .navbar-brand{
-
-    
-   
     font-size: 32px;
 }
 
@@ -156,6 +153,12 @@ body {
     background-size: 400px;
 }
 
+/* ---------------------- BREADCRUMBS -------------------------- */
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: var(--ucf-black);
+}
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
@@ -286,13 +289,12 @@ body {
     padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
+    font-size: 10px !important;
 }
 
 .button-class {
-    border: solid;
-    border-width: 1px;
-    border-color: var(--ucf-black);
     margin: 10px;
+    font-size: 10px;
 }
 
 .button-books {
@@ -352,10 +354,11 @@ body {
 }
 
 .term-table-head {
-    padding: 5px;
+    padding: 10px;
     color: white;
     font: var(--ucf-h1);
     background-color: var(--ucf-black);
+    width: 60%;
 }
 
 .term-table-one {
@@ -368,6 +371,22 @@ body {
 
 .term-table-three {
     background-color: var(--ucf-ltgrey);
+}
+
+.term-table {
+    width: 60%;
+    border: solid;
+    border-width: 1px;
+}
+
+.term-table-two button {
+    text-decoration: none;
+    color: var(--ucf-black);
+}
+
+.term-table-three button {
+    text-decoration: none;
+    color: var(--ucf-black);
 }
 
 /*---------------------------Links No Underline---------------------------------------*/
