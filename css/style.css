@@ -258,6 +258,7 @@ body {
     color: white;
     display: flex;
     justify-content: flex-start;
+    padding: 1px;
 }
 
 .schedule-table {
@@ -269,19 +270,49 @@ body {
 
 
 .semester-one {
-    margin: 10px;
     cursor: pointer;
+    padding: 12px;
 }
+
+.semester-one:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-one:active{
+    color:#FFCC00;
+  }
 
 .semester-two {
-    margin: 10px;
+    padding: 12px;
     cursor: pointer;
 }
 
+.semester-two:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-two:active{
+    color:#FFCC00;
+  }
+
 .semester-all {
-    margin: 10px;
+    padding: 12px;
     cursor: pointer;
 }
+
+.semester-all:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-all:active{
+    color:#FFCC00;
+  }
 
 /* -------------------------------BUTTON ROW ------------------------- */
 
