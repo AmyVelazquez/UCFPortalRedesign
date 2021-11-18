@@ -611,7 +611,7 @@ ul.breadcrumb li {
   
   /* Add a color on mouse-over */
   ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: var(--ucf-black);
     text-decoration: underline;
   }
 
