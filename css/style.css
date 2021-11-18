@@ -420,6 +420,16 @@ a:focus {
     margin-bottom: 5px !important;
 }
 
+.class-cards {
+    background-color: rgba(225, 225, 225, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: auto;
+    border: var(--ucf-black) solid 2px;
+    margin: 26px;
+}
+
 
 /*------BUTTONS&FIELD---------*/
 
