@@ -537,6 +537,10 @@ th, td {
     padding: 10px;
   }
 
+.trashcan-active {
+    cursor: pointer;
+}
+
 /* -----------------------------------BUTTONS-------------------------------- */
 a.btn {
     text-decoration: none !important;
