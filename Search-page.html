@@ -25,7 +25,7 @@
           <a class="navbar-brand">Welcome to your Student Portal!</a>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -106,7 +106,8 @@
    </ul>
 </div>
 </section>
-        
+        <!---------------------------------- update search box --------------------------------->
+
         <form class="row g-3 search-update">
             <div class="col-md-3">
                 <label for="course-career">Term</label>
@@ -140,6 +141,51 @@
                 <a class="btn btn-primary" href="#">Update Search</a>
             </div>
         </form>
+
+        <!---------------------------------- search results --------------------------------->
+
+        <div class="row">               
+            <div class="col-md-6 class-cards">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="search-page"><strong>Status:</strong></p>
+                        <img src="images/StatusOpen.png">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a class="btn btn-primary" href="#">More Info</a>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a class="btn btn-secondary" href="#">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 class-cards">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="search-page"><strong>Status:</strong></p>
+                        <img src="/images/StatusWaitListed.png">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a class="btn btn-primary" href="#">More Info</a>
+                        </div>
+                        <input type="button" value="Search">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
     </div>
       
 

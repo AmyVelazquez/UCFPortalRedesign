@@ -410,6 +410,10 @@ a:focus {
     margin: 26px;
 }
 
+.search-page {
+    margin-bottom: 5px !important;
+}
+
 
 /*------BUTTONS&FIELD---------*/
 
