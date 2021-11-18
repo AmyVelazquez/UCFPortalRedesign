@@ -107,22 +107,37 @@
 </div>
 </section>
         
-        <form class="row g-3">
+        <form class="row g-3 search-update">
             <div class="col-md-3">
-              <label for="inputEmail4" class="form-label">Term</label>
-              <input type="email" class="form-control" id="inputEmail4">
+                <label for="course-career">Term</label>
+                <select name="" id="">
+                 <option value="">Spring 2022</option>
+                 <option value="">Fall 2021</option>
+                </select> 
             </div>
             <div class="col-md-3">
-              <label for="inputPassword4" class="form-label">Course Career</label>
-              <input type="password" class="form-control" id="inputPassword4">
+                <label for="course-career">Course Career</label>
+                <select name="career" id="career">
+                 <option value="undergrad">Undergraduate</option>
+                 <option value="online">Graduate</option>
+                 <option value="d-town">Medical</option>
+                 <option value="Non-d">Other Non-Degree</option>
+                </select> 
             </div>
             <div class="col-md-3">
-                <label for="inputPassword4" class="form-label">Location</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="location"> Location</label>
+                   <select name="location" id="location">
+                    <option value="Orlando">Orlando Campus</option>
+                    <option value="online">Online</option>
+                    <option value="d-town">Downtown Campus</option>
+                   </select>
             </div>
             <div class="col-md-3">
                 <label for="inputPassword4" class="form-label">Course Subject</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="text" placeholder="PSY">
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a class="btn btn-primary" href="#">Update Search</a>
             </div>
         </form>
     </div>

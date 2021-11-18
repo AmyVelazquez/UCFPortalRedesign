@@ -121,7 +121,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
-    background-size: 40% 30%;
+    background-size: 400px;
 }
 
 
@@ -398,6 +398,17 @@ a:focus {
     margin-bottom: 26px;
 }
 
+/* -----------------------------------search update-------------------------------- */
+
+.search-update {
+    background-color: rgba(225, 225, 225, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: auto;
+    border: var(--ucf-black) solid 2px;
+    margin: 26px;
+}
 
 
 /*------BUTTONS&FIELD---------*/
@@ -426,7 +437,8 @@ input[type="text"]{
 }
 select{
     width:251px;
-    height:34px;  
+    height:34px;
+    margin-top: 10px;
     border:var(--ucf-black) solid 2px; 
 }
 select[name=Course-number]{
