@@ -64,6 +64,33 @@
     margin: auto;
 }
 
+.dashboard-icon {
+    height: auto;
+    width: 50px;
+}
+
+.selfservice-icon {
+    padding-bottom: 5px;
+    height: auto;
+    width: 50px;
+}
+
+.settings-icon {
+    height: auto;
+    width: 50px;
+}
+
+.help-icon {
+    height: auto;
+    width: 45px;
+}
+
+.other-icon {
+    padding-bottom: 5px;
+    height: auto;
+    width: 40px;
+}
+
 .links-name {
     color: var(--ucf-primary);
 }
