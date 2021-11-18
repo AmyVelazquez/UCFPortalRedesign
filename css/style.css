@@ -768,3 +768,7 @@ a.btn {
     padding-top: 40px;
     font: var(--ucf-h1);
 }
+
+.modal-content {
+    top: 200px;
+}
