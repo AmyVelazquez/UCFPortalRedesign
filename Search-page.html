@@ -1,351 +1,372 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>UCF-Search Results</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
-  </head>
-  <body>
-      <!--------------------------------- HEADER ------------------------------->
+</head>
+
+<body>
+    <!--------------------------------- HEADER ------------------------------->
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <div class="top-logo">
                 <a href="index.html"><img src="./images/PegasusSmallBlackLogo.png" alt="UCF"></a>
             </div>
-          <a href="index.html" class="navbar-brand">Welcome to your Student Portal!</a>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary" type="submit">Search</button>
-          </form>
+            <a href="index.html" class="navbar-brand">Welcome to your Student Portal!</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
         </div>
-      </nav>
-      
-      <div class="container-fluid">
-          <!----------------------- SIDENAV ---------------------------->
-          <div class="row">
+    </nav>
+
+    <div class="container-fluid">
+        <!----------------------- SIDENAV ---------------------------->
+        <div class="row">
             <div class="sidebar">
                 <div class="img-holder">
-                <div class="user-img">
-                    <img src="./images/ProfilePictureDellilah.png" alt="Profile">
+                    <div class="user-img">
+                        <img src="./images/ProfilePictureDellilah.png" alt="Profile">
+                    </div>
                 </div>
+                <div class="nav-items">
+                    <ul class="nav-list">
+                        <li class="nav-dashboard">
+                            <a href="index.html">
+                                <img class="dashboard-icon" src="./images/dashboard.png" alt="Dashboard">
+                                <span class="links-name">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-selfserv">
+                            <a href="">
+                                <img class="selfservice-icon" src="./images/selfservice.png" alt="Self Service">
+                                <span class="links-name">Self-Service</span>
+                            </a>
+                        </li>
+                        <li class="nav-settings">
+                            <a href="">
+                                <img class="settings-icon" src="./images/settings.png" alt="Settings">
+                                <span class="links-name">Settings</span>
+                            </a>
+                        </li>
+                        <li class="nav-help">
+                            <a href="">
+                                <img class="help-icon" src="./images/help.png" alt="Help">
+                                <span class="links-name">Help</span>
+                            </a>
+                        </li>
+                        <li class="nav-other">
+                            <a href="">
+                                <img class="other-icon" src="./images/other.png" alt="Other">
+                                <span class="links-name">Other</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            <div class="nav-items">
-                <ul class="nav-list">
-                    <li class="nav-dashboard">
-                        <a href="index.html">
-                            <img class= "dashboard-icon" src="./images/dashboard.png" alt="Dashboard">
-                            <span class="links-name">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="nav-selfserv">
-                        <a href="">
-                            <img class="selfservice-icon" src="./images/selfservice.png" alt="Self Service">
-                            <span class="links-name">Self-Service</span>
-                        </a>
-                    </li>
-                    <li class="nav-settings">
-                        <a href="">
-                            <img class="settings-icon" src="./images/settings.png" alt="Settings">
-                            <span class="links-name">Settings</span>
-                        </a>
-                    </li>
-                    <li class="nav-help">
-                        <a href="">
-                            <img class="help-icon" src="./images/help.png" alt="Help">
-                            <span class="links-name">Help</span>
-                        </a>
-                    </li>
-                    <li class="nav-other">
-                        <a href="">
-                            <img class="other-icon" src="./images/other.png" alt="Other">
-                            <span class="links-name">Other</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
             </div>
         </div>
-        
-        
 
-    <div class="main">
 
-<!---------------------------------- HEADER2&bread --------------------------------->
-<section>
-    <div>
-  <h1>Registration</h1>
-  <div class="bread">
-      <ul class="breadcrumb">
-          <li><a href="index.html">Dashboard</a></li>
-          <li><a href="term-select.html">Spring 2022</a></li>
-          <li><a href="registration-landing.html">Registration</a></li>
-          <li>Search Results</li>
-       </ul>
-  </div>
-<div class="nav-2">
-  <ul class="search-nav">
-      <li  ><a class="active" href="#">Search</a>
-      </li>
-      <li >
-          <a href="shopping-cart.html">Enroll</a>
-      </li>
-      <li>
-          <a href="#">My Academics</a>
-      </li>
-      
-   </ul>
-</div>
-</section>
-        <!---------------------------------- update search box --------------------------------->
 
-        <form class="row g-3 search-update">
-            <div class="col-md-3">
-                <label for="course-career">Term</label>
-                <select name="" id="">
-                 <option value="">Spring 2022</option>
-                 <option value="">Fall 2021</option>
-                </select> 
-            </div>
-            <div class="col-md-3">
-                <label for="course-career">Course Career</label>
-                <select name="career" id="career">
-                 <option value="undergrad">Undergraduate</option>
-                 <option value="online">Graduate</option>
-                 <option value="d-town">Medical</option>
-                 <option value="Non-d">Other Non-Degree</option>
-                </select> 
-            </div>
-            <div class="col-md-3">
-                <label for="location"> Location</label>
-                   <select name="location" id="location">
-                    <option value="Orlando">Orlando Campus</option>
-                    <option value="online">Online</option>
-                    <option value="d-town">Downtown Campus</option>
-                   </select>
-            </div>
-            <div class="col-md-3">
-                <label for="inputPassword4" class="form-label">Course Subject</label>
-                <input type="text" placeholder="PSY">
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a class="btn btn-primary" href="#">Update Search</a>
-            </div>
-        </form>
+        <div class="main">
 
-        <!---------------------------------- search results --------------------------------->
+            <!---------------------------------- HEADER2&bread --------------------------------->
+            <section>
+                <div>
+                    <h1>Registration</h1>
+                    <div class="bread">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Dashboard</a></li>
+                            <li><a href="term-select.html">Spring 2022</a></li>
+                            <li><a href="registration-landing.html">Registration</a></li>
+                            <li>Search Results</li>
+                        </ul>
+                    </div>
+                    <div class="nav-2">
+                        <ul class="search-nav">
+                            <li><a class="active" href="#">Search</a>
+                            </li>
+                            <li>
+                                <a href="shopping-cart.html">Enroll</a>
+                            </li>
+                            <li>
+                                <a href="#">My Academics</a>
+                            </li>
 
-        <div class="row all-classes">               
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
+                        </ul>
+                    </div>
+            </section>
+            <!---------------------------------- update search box --------------------------------->
+
+            <form class="row g-3 search-update">
+                <div class="col-md-3">
+                    <label for="course-career">Term</label>
+                    <select name="" id="">
+                        <option value="">Spring 2022</option>
+                        <option value="">Fall 2021</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="course-career">Course Career</label>
+                    <select name="career" id="career">
+                        <option value="undergrad">Undergraduate</option>
+                        <option value="online">Graduate</option>
+                        <option value="d-town">Medical</option>
+                        <option value="Non-d">Other Non-Degree</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="location"> Location</label>
+                    <select name="location" id="location">
+                        <option value="Orlando">Orlando Campus</option>
+                        <option value="online">Online</option>
+                        <option value="d-town">Downtown Campus</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputPassword4" class="form-label">Course Subject</label>
+                    <input type="text" placeholder="PSY">
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a class="btn btn-primary" href="#">Update Search</a>
+                </div>
+            </form>
+
+            <!---------------------------------- search results --------------------------------->
+
+            <div class="row all-classes">
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
                             <p class="search-page"><strong>Room: </strong>CB2 0101</p>
                             <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
                             <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-
-                                    <!---------------------------------- BUTTON TO MODAL OF MORE INFORMATION GOES IN THIS HREF BELOW --------------------------------->
-
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">More Info</button>
                         </div>
-                        
-  
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
 
-  
-                        <!--------------------- Modal ---------------------->
-                        
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Class Details</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                </div>
-                                <div class="modal-body">
-                                <ul class="class-list">
-                                    <li><strong>Room: </strong>CB2 0101</li>
-                                    <li></li><strong>Days & Times: </strong>TuTh 9:00AM - 10:20AM</li>
-                                    <li></li><strong>Instructor: </strong>Hooman Faily</li>
-                                    <li></li><strong>Start/End Dates: </strong>01/10/2022 - 05/03/2022</li>
-                                    <li></li><strong>Grading: </strong>ABCDF</li>
-                                    <li></li><strong>Units: </strong>3.00</li>
-                                    <li></li><strong>Status: </strong>Open</li>
-                                    <li></li><strong>Seats: </strong>76/225</li>
-                                    <li></li><strong>Other Information: </strong>Knock knock. Who's there? Hooman. Hooman who? Hoomany times do I have to tell you?</li>
-                                </ul>
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                <a href="shopping-cart.html">
-                                    <button type="button" class="btn btn-secondary">Add to Cart</button>
-                                </a>
+                                <!---------------------------------- BUTTON TO MODAL OF MORE INFORMATION GOES IN THIS HREF BELOW --------------------------------->
+
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">More Info</button>
+                            </div>
+
+
+
+
+                            <!--------------------- Modal ---------------------->
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Class Details</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul class="class-list">
+                                                <li><strong>Room: </strong>CB2 0101</li>
+                                                <li></li><strong>Days & Times: </strong>TuTh 9:00AM - 10:20AM</li>
+                                                <li></li><strong>Instructor: </strong>Hooman Faily</li>
+                                                <li></li><strong>Start/End Dates: </strong>01/10/2022 - 05/03/2022</li>
+                                                <li></li><strong>Grading: </strong>ABCDF</li>
+                                                <li></li><strong>Units: </strong>3.00</li>
+                                                <li></li><strong>Status: </strong>Open</li>
+                                                <li></li><strong>Seats: </strong>76/225</li>
+                                                <li></li><strong>Other Information: </strong>Knock knock. Who's there?
+                                                Hooman. Hooman who? Hoomany times do I have to tell you?</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-dismiss="modal">Close</button>
+                                            <a href="shopping-cart.html">
+                                                <button type="button" class="btn btn-secondary">Add to Cart</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <!---------------------------------- BUTTON TO TOAST CONFIRMATION --------------------------------->
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a><button type="button" onclick="myFunction()" class="btn btn-secondary"
+                                        id="liveToastBtn">Add to Cart</button></a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusWaitListed.png">
+                                </li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-primary" href="#">More Info</a>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-secondary" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-primary" href="#">More Info</a>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-secondary" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusClosed.png">
+                                </li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-primary" href="#">More Info</a>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-secondary" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusWaitListed.png">
+                                </li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-primary" href="#">More Info</a>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-secondary" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 class-cards">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>PSY 2012 - General Psychology</h4>
+                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
+                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
+                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="class-list">
+                                <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
+                            </ul>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-primary" href="#">More Info</a>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a class="btn btn-secondary" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                    <!---------------------------------- BUTTON TO TOAST CONFIRMATION --------------------------------->
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a><button type="button" onclick="myFunction()" class="btn btn-secondary" id="liveToastBtn">Add to Cart</button></a>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
-                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
-                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
-                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusWaitListed.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-primary" href="#">More Info</a>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
-                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
-                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
-                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-primary" href="#">More Info</a>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
-                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
-                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
-                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusClosed.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-primary" href="#">More Info</a>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
-                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
-                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
-                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusWaitListed.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-primary" href="#">More Info</a>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 class-cards">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4>PSY 2012 - General Psychology</h4>
-                            <p class="search-page"><strong>Room: </strong>CB2 0101</p>
-                            <p class="search-page"><strong>Day & Times: </strong>TuTh 9:00AM - 10:20AM</p>
-                            <p class="search-page"><strong>Instructor: </strong>Hooman Faily</p>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="class-list">
-                        <li class="search-page"><strong>Status:</strong> <img src="images/StatusOpen.png"></li>
-                        </ul>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-primary" href="#">More Info</a>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+
         </div>
-    
-    </div>
-<!------------------------------------ TOAST --------------------------------->
+        <!------------------------------------ TOAST --------------------------------->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="./javascript/script.js" ></script>
-    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
 
-    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="./javascript/script.js"></script>
 
-    
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-        <img src="./images/PegasusSmallBlackLogo.png" class="rounded me-2" alt="UCF">
-        <strong class="me-auto">Added to Cart</strong>
-        <small>2 secs ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+
+
+
+
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="./images/PegasusSmallBlackLogo.png" class="rounded me-2" alt="UCF">
+                <strong class="me-auto">Added to Cart</strong>
+                <small>2 secs ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                PSY 2012 - General Psychology was added to the shopping cart. Click the Enroll tab to view your shopping
+                cart.
+            </div>
         </div>
-        <div class="toast-body">
-            PSY 2012 - General Psychology was added to the shopping cart. Click the Enroll tab to view your shopping cart.
-        </div>
-    </div>
-    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    
-  </body>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+
+</body>
+
 </html>
