@@ -56,6 +56,14 @@
     color: var(--ucf-primary);
 }
 
+.nav-dashboard:hover {
+    background-color: var(--ucf-dkgrey);
+    border-color: var(--ucf-primary);
+    border-width: 1px;
+    border: solid;
+}
+
+
 .nav-items img {
     display: block;
     margin: auto;
@@ -194,6 +202,13 @@ body {
 .nav-tile a{
     color:var(--ucf-primary);
     text-decoration: none;
+}
+
+.nav-tile:hover {
+    background-color: var(--ucf-dkgrey);
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-primary);
 }
 
 .main{
@@ -367,11 +382,11 @@ body {
 }
 
 .accounts-links {
-    padding-right: 85%;
+    padding-right: 75%;
 }
 
 .financial-links {
-    padding-right: 84%;
+    padding-right: 75%;
 }
 
 .financial-aid {
