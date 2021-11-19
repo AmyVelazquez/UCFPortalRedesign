@@ -838,3 +838,11 @@ a.btn {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
+
+/* -----------------------Weekly Schedule --------------------------------- */
+.weekly-class {
+    background-color: var(--ucf-mdgrey) !important;
+    border: solid;
+    border-width: 1px;
+    border-color: var(--ucf-ltgrey);
+}
