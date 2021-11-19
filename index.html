@@ -21,15 +21,15 @@
   </head>
   <body>
       <!------------------------ HEADER ------------------------------>
-    <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <div class="top-logo">
-                <a href="#"><img src="./images/PegasusSmallBlackLogo.png" alt="UCF"></a> 
-                <a class="navbar-brand" href="#">Welcome to your Student Portal!</a>
+                <a href="index.html"><img src="./images/PegasusSmallBlackLogo.png" alt="UCF"></a>
             </div>
+          <a href="index.html" class="navbar-brand">Welcome to your Student Portal!</a>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-secondary button-search" type="submit">Search</button>
+            <button class="btn btn-primary" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -47,32 +47,32 @@
                 <div class="nav-items">
                     <ul class="nav-list">
                         <li class="nav-dashboard">
-                            <a href="">
-                                <img src="./images/dashboard.png" alt="Dashboard">
+                            <a href="index.html">
+                                <img class= "dashboard-icon" src="./images/dashboard.png" alt="Dashboard">
                                 <span class="links-name">Dashboard</span>
                             </a>
                         </li>
                         <li class="nav-selfserv">
                             <a href="">
-                                <img src="./images/selfservice.png" alt="Self Service">
+                                <img class="selfservice-icon" src="./images/selfservice.png" alt="Self Service">
                                 <span class="links-name">Self-Service</span>
                             </a>
                         </li>
                         <li class="nav-settings">
                             <a href="">
-                                <img src="./images/settings.png" alt="Settings">
+                                <img class="settings-icon" src="./images/settings.png" alt="Settings">
                                 <span class="links-name">Settings</span>
                             </a>
                         </li>
                         <li class="nav-help">
                             <a href="">
-                                <img src="./images/help.png" alt="Help">
+                                <img class="help-icon" src="./images/help.png" alt="Help">
                                 <span class="links-name">Help</span>
                             </a>
                         </li>
                         <li class="nav-other">
                             <a href="">
-                                <img src="./images/other.png" alt="Other">
+                                <img class="other-icon" src="./images/other.png" alt="Other">
                                 <span class="links-name">Other</span>
                             </a>
                         </li>
@@ -83,8 +83,8 @@
             <!---------------------- ANNOUNCEMENTS AND TO DOS -------------------------->
             <div class="main">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="announcements">
+                    <div class="col-md-6">
+                        <div class="announcements h-100">
                             <h2>Important Announcements</h2>
                             <ul>
                                 <li>
@@ -100,8 +100,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="announcements">
+                    <div class="col-md-6">
+                        <div class="announcements h-100">
                             <h2>Holds and To Dos:</h2>
                             <ul>
                                 <li>
@@ -122,37 +122,37 @@
             <div class="nav-tiles">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <img src="./images/personalinfo.png" alt="Personal Info">
                             <span class="tile-name">Personal Info</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <a href="term-select.html"><img src="./images/registration.png" alt="Registration">
                             <span class="tile-name">Registration</span></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <img src="./images/canvas.png" alt="Canvas">
                             <span class="tile-name">Canvas</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <img src="./images/knightaudit.png" alt="Knight Audit">
-                            <span class="tile-name">My Knight Audit</span>
+                            <span class="tile-name">KnightAudit</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <img src="./images/knightemail.png" alt="Knight Email">
                             <span class="tile-name">KnightsEmail</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="nav-tile">
+                        <div class="nav-tile h-100">
                             <img src="./images/grades.png" alt="Grades">
                             <span class="tile-name">Grades</span>
                         </div>
@@ -168,9 +168,9 @@
             <!------------------------------- SCHEDULE TABLE -------------------------------------->
             <div class="schedule-table">
                 <div class="table-links">
-                    <p class="semester-one">Fall '21</p>
-                    <p class="semester-two">Spring '21</p>
-                    <p class="semester-all">Fall '21</p>
+                    <div class="semester-one">Fall '21</div>
+                    <div class="semester-two">Spring '21</div>
+                    <div class="semester-all">Fall '21</div>
                 </div>
                 
                 <table class="table table-borderless">
@@ -207,12 +207,12 @@
 
             <!------------------------------------ Button Row ------------------------------>
             <div class="button-row">
-                <button type="button" class="btn button-class">Class Search</button>
-                <button type="button" class="btn button-books">Books</button>
-                <button type="button" class="btn button-grades">Grades</button>
-                <button type="button" class="btn button-transcripts">Transcripts</button>
+                <button type="button" class="btn btn-primary button-class">Class Search</button>
+                <button type="button" class="btn btn-primary button-books">Books</button>
+                <button type="button" class="btn btn-primary button-grades">Grades</button>
+                <button type="button" class="btn btn-primary button-transcripts">Transcripts</button>
                 <div class="dropdown">
-                    <button class="btn button-other dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-primary button-other dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Other
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">

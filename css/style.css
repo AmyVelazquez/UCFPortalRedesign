@@ -33,9 +33,6 @@
 }
 
 .navbar-brand{
-
-    
-   
     font-size: 32px;
 }
 
@@ -62,6 +59,33 @@
 .nav-items img {
     display: block;
     margin: auto;
+}
+
+.dashboard-icon {
+    height: auto;
+    width: 50px;
+}
+
+.selfservice-icon {
+    padding-bottom: 5px;
+    height: auto;
+    width: 50px;
+}
+
+.settings-icon {
+    height: auto;
+    width: 50px;
+}
+
+.help-icon {
+    height: auto;
+    width: 45px;
+}
+
+.other-icon {
+    padding-bottom: 5px;
+    height: auto;
+    width: 40px;
 }
 
 .links-name {
@@ -129,6 +153,12 @@ body {
     background-size: 400px;
 }
 
+/* ---------------------- BREADCRUMBS -------------------------- */
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: var(--ucf-black);
+}
 /* ----------------------ANNOUNCEMENTS AND TO DOS------------------------- */
 .announcements {
     padding: 20px;
@@ -139,6 +169,7 @@ body {
     border-top-width: 5px;
     border-bottom-width: 5px;
 }
+
 
 /* --------------------------MIDDLE NAV TILES------------------------------ */
 .nav-tiles {
@@ -158,6 +189,7 @@ body {
     background-color: var(--ucf-black);
     padding: 18px;
     margin-top: 20px;
+    margin-bottom: -20px;
 }
 .nav-tile a{
     color:var(--ucf-primary);
@@ -215,7 +247,7 @@ body {
 /* -------------------------SCHEDULE HEADER AND TABLE--------------------- */
 
 .schedule-header {
-    margin: 0;
+    margin-top: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
     font: var(--ucf-h1);
@@ -226,6 +258,7 @@ body {
     color: white;
     display: flex;
     justify-content: flex-start;
+    padding: 1px;
 }
 
 .schedule-table {
@@ -237,19 +270,49 @@ body {
 
 
 .semester-one {
-    margin: 10px;
     cursor: pointer;
+    padding: 12px;
 }
+
+.semester-one:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-one:active{
+    color:#FFCC00;
+  }
 
 .semester-two {
-    margin: 10px;
+    padding: 12px;
     cursor: pointer;
 }
 
+.semester-two:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-two:active{
+    color:#FFCC00;
+  }
+
 .semester-all {
-    margin: 10px;
+    padding: 12px;
     cursor: pointer;
 }
+
+.semester-all:hover {
+    color:#FFCC00;
+    border-bottom:#FFCC00 solid 3px ;
+    padding-bottom: 9px;
+}
+
+.semester-all:active{
+    color:#FFCC00;
+  }
 
 /* -------------------------------BUTTON ROW ------------------------- */
 
@@ -257,13 +320,12 @@ body {
     padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
+    font-size: 10px !important;
 }
 
 .button-class {
-    border: solid;
-    border-width: 1px;
-    border-color: var(--ucf-black);
     margin: 10px;
+    font-size: 10px;
 }
 
 .button-books {
@@ -323,10 +385,11 @@ body {
 }
 
 .term-table-head {
-    padding: 5px;
+    padding: 10px;
     color: white;
     font: var(--ucf-h1);
     background-color: var(--ucf-black);
+    width: 60%;
 }
 
 .term-table-one {
@@ -339,6 +402,22 @@ body {
 
 .term-table-three {
     background-color: var(--ucf-ltgrey);
+}
+
+.term-table {
+    width: 60%;
+    border: solid;
+    border-width: 1px;
+}
+
+.term-table-two button {
+    text-decoration: none;
+    color: var(--ucf-black);
+}
+
+.term-table-three button {
+    text-decoration: none;
+    color: var(--ucf-black);
 }
 
 /*---------------------------Links No Underline---------------------------------------*/
@@ -413,12 +492,32 @@ a:focus {
     padding-bottom: 30px;
     width: auto;
     border: var(--ucf-black) solid 2px;
-    margin: 26px;
+    margin: 26px 0px;
 }
 
 .search-page {
-    margin-bottom: 5px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
 }
+
+.all-classes, .class-cards {
+    padding: 10px;
+    margin: 5px;
+}
+
+.class-cards {
+    background-color: rgba(225, 225, 225, 1);
+    padding: 20px;
+    border: var(--ucf-black) solid 2px;
+    width: 49%;
+}
+
+.class-list {
+    list-style-type: none;
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
 
 
 /*------BUTTONS&FIELD---------*/
@@ -512,7 +611,7 @@ ul.breadcrumb li {
   
   /* Add a color on mouse-over */
   ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: var(--ucf-black);
     text-decoration: underline;
   }
 
@@ -543,12 +642,12 @@ ul.breadcrumb li {
   /* Add a color on mouse-over */
   .search-nav li a:hover {
     color:#FFCC00;
-    
+    padding-bottom: 9px;
+    border-bottom:#FFCC00 solid 3px ;
 
   }
   .search-nav li a.active{
     color:#FFCC00;
-    border-bottom:#FFCC00 solid 3px ;
     padding-bottom: 9px;
   }
     
@@ -631,6 +730,7 @@ a.btn {
     outline: none !important;
     box-shadow: none !important;
     text-decoration: none;
+    margin-top: 5px;
   }
 
   .btn-secondary:hover {
@@ -659,8 +759,20 @@ a.btn {
     text-decoration: none;
 }
 
+
+
+
+
 /* -----------------------------------Textbook Section -------------------------------- */
   .textbookSection {
     padding-top: 40px;
     font: var(--ucf-h1);
+}
+
+
+/* -----------------------------------modal positioning -------------------------------- */
+
+
+.modal-content {
+    top: 200px;
 }
