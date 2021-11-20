@@ -268,6 +268,11 @@ body {
     font: var(--ucf-h1);
 }
 
+.schedule-headerTopSpace {
+    margin-top: 20px;
+    font: var(--ucf-h1);
+}
+
 .table-links {
     background-color: var(--ucf-black);
     color: white;
