@@ -840,6 +840,10 @@ a.btn {
   }
 
 /* -----------------------Weekly Schedule --------------------------------- */
+.weekly-schedule {
+    padding-top: 20px;
+}
+
 .weekly-class {
     background-color: var(--ucf-mdgrey) !important;
     border: solid;
